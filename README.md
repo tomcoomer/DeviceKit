@@ -41,3 +41,6 @@ if DeviceSoftware().IS_IOS_9() {
             println("Is running iOS 9")            
 }
 ```
+
+# Questions
+For any querstions please visit SmudgeInc.co.uk

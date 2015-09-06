@@ -12,7 +12,7 @@ import Foundation
 public class HardwareType {
     
     public init (){
-        println("Hardware Class has been initialised")
+        print("Hardware Class has been initialised")
     }
     
     enum UIUserInterfaceIdiom : Int

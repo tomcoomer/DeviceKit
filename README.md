@@ -11,19 +11,19 @@ This can be used to get information about the device, useful when drawing the UI
 To get the specific hardware type just use the code below:
 ```
 if HardwareType().IS_IPHONE_6() {
-            println("iPhone 6")
+            print("iPhone 6")
 }
 ```
 To check the device type use this: 
 ```
 if HardwareType().IS_IPHONE() {
-            println("Is iPhone")
+            print("Is iPhone")
 }
 ```
 or
 ```
 if HardwareType().IS_IPAD() {
-            println("Is iPad")
+            print("Is iPad")
 }
 ```
 
@@ -32,13 +32,13 @@ if HardwareType().IS_IPAD() {
 You can get the version number of the current device's software using:
 ```
 let sVers = DeviceSoftware().softwareVerstion()
-        println("Software version: \(sVers)")
+        print("Software version: \(sVers)")
 ```
 
 or to check the main version number use this:
 ```
 if DeviceSoftware().IS_IOS_9() {
-            println("Is running iOS 9")            
+            print("Is running iOS 9")            
 }
 ```
 

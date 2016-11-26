@@ -11,7 +11,7 @@ import Foundation
 public class DeviceSoftware {
     
     public init (){
-        println("Hardware Class has been initialised")
+        print("Hardware Class has been initialised")
     }
     
     struct Version{

@@ -43,4 +43,4 @@ if DeviceSoftware().IS_IOS_9() {
 ```
 
 # Questions
-For any querstions please visit SmudgeInc.co.uk
+For any questions please visit Smudge.cloud

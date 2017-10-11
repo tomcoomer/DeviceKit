@@ -39,16 +39,6 @@ public class HardwareType {
         static let IS_IPAD              = UIDevice.current.userInterfaceIdiom == .pad && ScreenSize.SCREEN_MAX_LENGTH == 1024.0
     }
     
-//    private var _device: String?
-//    var device: String? {
-//        get {
-//            return _device
-//        }
-//        set {
-//            _device = newValue
-//            //            useDocument()
-//        }
-//    }
     
     public func IS_IPHONE_4_OR_LESS() -> Bool {
         return DeviceType.IS_IPHONE_4_OR_LESS
@@ -60,9 +50,6 @@ public class HardwareType {
         return DeviceType.IS_IPHONE_6
     }
     public func IS_IPHONE_6P() -> Bool {
-//        if DeviceType.IS_IPHONE_6P {
-//            println("IS_IPHONE_6P")
-//        }
         return DeviceType.IS_IPHONE_6P
     }
     public func IS_IPAD() -> Bool {
